@@ -1,0 +1,41 @@
+header {
+    background-image: url("./img/header-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    height: 100vh;
+    color: white;
+    font-family: 'Bebas Neue', cursive ,sans-serif;
+
+}
+/* Css for google map integration */
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+header .h3{
+    line-height: 600px;
+}
+
+.header-text {
+    margin-top: 50%;
+    margin: auto 5%;
+    align-content: center;
+}
+
+.form-section p{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.input-style{
+    max-width: 720px;
+    border-radius: 5px;
+}
+
+.input-style:active {
+    border-color: none;
+}
