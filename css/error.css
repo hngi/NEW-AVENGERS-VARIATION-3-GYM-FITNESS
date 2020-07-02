@@ -1,0 +1,47 @@
+/*error 404 section*/
+
+.error {
+  height: 100vh;
+  background-image: url(/images/errorimages/brown.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: bebas neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40vh;
+}
+
+.ready {
+  background-color: #ff4301;
+  height: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.fit {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.fit a {
+  color: #fff;
+}
+
+.btn-default {
+  margin-left: 60vw;
+  background-color: #fff;
+  padding: 10px 25px;
+  color: #ff4301;
+}
+
+.join-us .fab {
+  color: #ff4301;
+}
