@@ -1,0 +1,113 @@
+
+    /*font-family: 'Bebas Neue', cursive ,sans-serif;*/
+/* Css for google map integration */
+html {
+  scroll-behavior: smooth;
+}
+
+#idea {
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  color: black;
+}
+
+
+.home {
+  width:100% ;
+  height: 100vh;
+  background: url(/img/header-img.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+    font-family: 'Bebas Neue', cursive ,sans-serif;
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 120px;
+    width: 362px;
+    height: 120px;
+    left: 0px;
+    top: 320px;
+    color: #ffffff;
+}
+
+#intro-heading {
+    font-size: larger;
+}
+
+#intro-text {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.landing {
+  position: relative;
+  color: white;
+  font-family: 'Merriweather', serif
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .5;
+}
+
+
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+header .h3{
+    line-height: 600px;
+}
+
+.header-text {
+    margin-top: 50%;
+    margin: auto 5%;
+    align-content: center;
+}
+
+#form {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#form-input {
+    padding-left: 17%;
+}
+
+#cta {
+   margin-right: 17%;
+    color: #ffffff;
+    background-color: #ff4301;
+}
+
+.form-section p{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.input-style{
+    max-width: 720px;
+    border-radius: 5px;
+}
+
+.input-style:active {
+    border-color: none;
+}
+
+#advert {
+background: #e2e1e2;
+width: 100%;
+}
