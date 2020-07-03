@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+:root {
+  --tmBlack: #000000;
+  --tmWhite: #ffffff;
+  --tmOrange: #ff4301;
+  --tmAsh: #ededed;
+  --tmDarkash: #c4c4c4;
+  --tmVDarkAsh: #c9c8c9;
+  --tmFootBack: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: Bebas Neue;
+}
+/* ############################### styling for the header  ####################################### */
+/* ----------------------- banner styling--------------------------------- */
+.banner {
+  height: 125vh;
+  background-image: url("../images/bannerImg.png");
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+  background-position: center;
+  background-size: contain;
+  margin-top: -620px;
+}
+.banner h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 72px;
+  color: var(--tmBlack);
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 238px 0 0 120px;
+}
+.my-btn {
+  display: none;
+  background: var(--tmOrange);
+  font-family: Manrope;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--tmWhite);
+  padding: 10px;
+  width: 200px;
+}
+/*teams section styling  */
+.team-grp {
+  margin: 0 auto;
+  flex: 1;
+  margin-top: -190px;
+  z-index: -1;
+}
+.team-grp .card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
+  /* padding-left: 40px; */
+}
+.team-grp .card:hover {
+  cursor: pointer;
+}
+.card-footer {
+  background: var(--tmOrange);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.card-footer span {
+  color: var(--tmWhite);
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+}
+.card-body {
+  background: var(--tmAsh);
+}
+.card-body:hover {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
+}
+.card-footer .icons {
+  width: 95px;
+  height: 15px;
+}
+.card-footer .icons img {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+.card-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ff4301;
+}
+/* --------------- Conatct section------------------- */
+.newsletter {
+  height: auto;
+  background-image: url("../images/newsletter.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: 50px;
+}
+.contact {
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+.contact h2 {
+  /* font-family: Bebas Neue; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  margin-top: 104.05px;
+}
+.contact p {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 186.6%;
+  color: #000000;
+  margin: 30px;
+}
+.box-sm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 350px;
+  height: 300px;
+  margin-left: 123px;
+  margin-bottom: 64px;
+  margin-top: 40px;
+}
+.left {
+  width: 100px;
+}
+.left img {
+  margin: 10px;
+}
+.right {
+  width: 210px;
+}
+.right p {
+  font-size: 9px;
+  line-height: 160.7%;
+  color: #092c4c;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.right p img {
+  width: 12px;
+  height: 10px;
+}
+.right form {
+  padding: 0;
+  margin: 20px 10px 10px 10px;
+}
+form input {
+  border: 1px solid #c9c8c9;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 150px;
+}
+form label {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+}
+.btn-news {
+  background: var(--tmOrange);
+  color: var(--tmWhite);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 10px;
+}
+/* overlay styling */
+.overlay {
+  height: 200px;
+  background-image: url("../images/OUR\ TEAM.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  bottom: 90%;
+}
+/* ------------------ Footer styling-------------------------- */
+
+/* responsive settings */
+@media (max-width: 575px) {
+  .banner h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: -10px;
+  }
+  .my-btn {
+    margin-left: 100px;
+    margin-top: 30px;
+    display: block;
+  }
+  .box-sm {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .left {
+    width: 30%;
+  }
+  .right {
+    width: 70%;
+    flex: 1;
+  }
+  .team-grp {
+    justify-content: center;
+    margin-top: -510px;
+  }
+  form input {
+    width: 100%;
+  }
+  .banner {
+    margin-top: -800px;
+    height: 75vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .banner h1 {
+    font-size: 25px;
+    line-height: 22px;
+    /* margin: 178px 0 0 20px; */
+  }
+  .my-btn {
+    font-size: 12px;
+    line-height: 10px;
+    /* padding: 10px; */
+    width: 150px;
+  }
+  .overlay {
+    position: relative;
+    height: 100px;
+    bottom: 480%;
+  }
+  /* .newsletter {
+    height: auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  } */
+}
+@media (max-width: 768px) {
+}
