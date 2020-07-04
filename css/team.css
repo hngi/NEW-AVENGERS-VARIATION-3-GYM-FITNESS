@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 :root {
   --tmBlack: #000000;
   --tmWhite: #ffffff;
@@ -25,12 +25,12 @@ body {
 /* ----------------------- banner styling--------------------------------- */
 .banner {
   height: 125vh;
-  background-image: url("../images/bannerImg.png");
+  background-image: url('../images/bannerImg.png');
   background-repeat: no-repeat;
   /* object-fit: cover; */
   background-position: center;
   background-size: contain;
-  margin-top: -620px;
+  /* margin-top: -620px; */
 }
 .banner h1 {
   font-style: normal;
@@ -41,7 +41,7 @@ body {
   flex: none;
   order: 0;
   align-self: center;
-  margin: 238px 0 0 120px;
+  margin: 200px 0 0 50px;
 }
 .my-btn {
   display: none;
@@ -109,7 +109,7 @@ body {
 /* --------------- Conatct section------------------- */
 .newsletter {
   height: auto;
-  background-image: url("../images/newsletter.png");
+  background-image: url('../images/newsletter.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -196,7 +196,7 @@ form label {
 /* overlay styling */
 .overlay {
   height: 200px;
-  background-image: url("../images/OUR\ TEAM.png");
+  background-image: url('../images/OUR\ TEAM.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

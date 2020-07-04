@@ -1,6 +1,6 @@
 /*font-family: 'Bebas Neue', cursive ,sans-serif;*/
 /* Css for google map integration */
-html {
+/* html {
     scroll-behavior: smooth;
 }
 
@@ -8,24 +8,23 @@ img {
     max-width: 100%;
     height: auto;
 
-}
-
+} */
+/* 
 #idea {
     font-family: 'Open Sans', sans-serif;
     background: white;
     color: black;
-}
+} */
 
-
-.home {
+/* .home {
     width: 100%;
     height: 100vh;
     background: url('/img/header-img.png') no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
-.intro {
+/* .intro {
     font-family: 'Bebas Neue', cursive, sans-serif;
     position: absolute;
     font-style: normal;
@@ -37,9 +36,9 @@ img {
     left: 0px;
     top: 320px;
     color: #ffffff;
-}
+} */
 
-#intro-heading {
+/* #intro-heading {
     font-size: larger;
 }
 
@@ -52,9 +51,9 @@ img {
     position: relative;
     color: white;
     font-family: 'Merriweather', serif
-}
+} */
 
-.banner::after {
+/* .banner::after {
     content: "";
     position: absolute;
     top: 0;
@@ -63,10 +62,9 @@ img {
     height: 100%;
     background-color: black;
     opacity: .5;
-}
+} */
 
-
-#map {
+/* #map {
     height: 400px;
     width: 100%;
 }
@@ -79,9 +77,9 @@ header .h3 {
     margin-top: 50%;
     margin: auto 5%;
     align-content: center;
-}
+} */
 
-#form {
+/* #form {
     padding-top: 40px;
     text-align: center;
     padding-bottom: 20px;
@@ -91,9 +89,9 @@ header .h3 {
 
 #form-input {
     padding-left: 25%;
-}
+} */
 
-#cta {
+/* #cta {
     margin-right: 25%;
     color: #ffffff;
     background-color: #ff4301;
@@ -103,9 +101,9 @@ header .h3 {
 
 button {
     width: 14%;
-}
+} */
 
-.form-section p {
+/* .form-section p {
     font-family: Roboto;
     font-size: 20px;
     line-height: 23px;
@@ -114,9 +112,9 @@ button {
 .input-style {
     max-width: 720px;
     border-radius: 5px;
-}
+} */
 
-.input-style:active {
+/* .input-style:active {
     border-color: none;
 }
 
@@ -124,9 +122,9 @@ button {
     background: #e2e1e2;
     max-width: 100%;
     height: auto;
-}
+} */
 
-#advert-info {
+/* #advert-info {
     padding-top: 40px;
     padding-left: 40px;
     padding-bottom: 40px;
@@ -135,9 +133,9 @@ button {
 #advert-info-heading {
     font-family: 'Bebas Neue', cursive, sans-serif;
     font-size: 30px;
-}
+} */
 
-#advert-info-text {
+/* #advert-info-text {
     font-family: 'Manrope', cursive, sans-serif;
 }
 
@@ -145,9 +143,9 @@ button {
     padding-top: 40px;
     padding-left: 40px;
     padding-bottom: 20px;
-}
+} */
 
-#social-info {
+/* #social-info {
     background: #333333;
     max-width: 100%;
     height: auto;
@@ -159,25 +157,24 @@ button {
     font-family: 'Bebas Neue', cursive, sans-serif;
     padding-top: 40px;
     text-decoration: underline;
-}
+} */
 
-#social-icons {
+/* #social-icons {
     display: flex;
     max-width: 100%;
     height: auto;
     padding-top: 30px;
     justify-content: space-evenly;
-}
+} */
 
-
-@media (max-width: 426px) {
+/* @media (max-width: 426px) {
 
     .center-text {
         text-align: center;
-    }
+    } */
 
-    /* intro */
-    .intro {
+/* intro */
+/* .intro {
         width: 250px;
         padding-left: 5px;
     }
@@ -188,10 +185,10 @@ button {
 
     #intro-text {
         font-size: 20px;
-    }
+    } */
 
-    /* contact info */
-    #form-input {
+/* contact info */
+/* #form-input {
         padding-left: 1%;
     }
 
@@ -201,20 +198,20 @@ button {
 
     button {
         width: auto;
-    }
+    } */
 
-    /* contact info */
-    #advert-info {
+/* contact info */
+/* #advert-info {
         padding-left: 5px;
     }
 
     #contact-info {
         padding-left: 5px;
-    }
+    } */
 
-    /* social media icons */
+/* social media icons */
 
-    #social-icons img {
+/* #social-icons img {
         width: 30px;
     }
 }
@@ -255,4 +252,4 @@ button {
         margin-right: 0%;
         margin-left: 40%;
     }
-}
+} */
