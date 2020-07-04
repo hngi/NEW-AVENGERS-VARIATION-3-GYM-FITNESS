@@ -1,0 +1,1036 @@
+
+
+
+
+.jumbotron{
+	opacity: 0.8;
+	width: 1100px;
+	height: 961px;
+	left: 0px;
+	top: -106px;
+	background-image: url("../images/anastase.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; 
+
+
+}
+
+@media screen and (max-width: 600px) {
+	nav{
+		width: 1050px;
+	}
+	}
+
+
+
+@media screen and (max-width: 600px) {
+	.foott {
+		margin-top: 6240px;
+		width: 1100px; 
+		font-size: 43px;
+	}
+	}
+
+
+@media screen and (max-width: 600px) {
+main .jumbotron{
+width: 1150px;
+height:750px;
+left: 0px;
+top: 49px;
+
+opacity: 0.9
+background-image: url('../images/anastase.png'); 
+
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; 
+
+} }
+
+main .small-1{
+	width: 753px;
+	height: 120px;
+	left: 120px;
+	top: 236px;
+	margin-top: 250px;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 120px;
+/* identical to box height */
+
+
+	color: #000000;
+}
+main .small-2{
+width: 490px;
+height: 66px;
+left: 120px;
+top: 366px;
+margin-top: auto;
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+
+color: #4B4B4B;
+
+}
+
+.jumbotron button{
+	/* Subscribe */
+
+
+/* Subscribe */
+
+width: 129px;
+height: 31px;
+left: 137px;
+top: 476px;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+width: 240px;
+height: 54px;
+left: 120px;
+top: 464px;
+
+background: #FF4301;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+main .small-1{
+
+	width: 470px;
+	height: 86px;
+	left: 30px;
+	top: 164px;
+	margin-top: 60px;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 43px;
+
+	color: #000000;
+
+}
+}
+
+
+@media screen and (max-width: 600px) {
+main .small-2{
+margin-top: auto;
+width: 600px;
+height: 54px;
+left: 30px;
+top: 260px;
+
+
+font-family: Manrope;
+font-size: 40px;
+line-height: 166.6%;
+/* or 27px */
+
+
+color: #4B4B4B;
+}
+}
+
+@media screen and (max-width: 600px) {
+main .jumbotron button{
+	margin-top: 150px;
+	width: 220px;
+	height: 54px;
+	left: 30px;
+
+	}}
+
+
+main  input{
+ /* Rectangle 149 */
+	width: 285px;
+	height: 52px;
+	left: 120px;
+	top: 891px;
+	margin-top: 470px;
+	/* Gray 3 */
+	border: 1px solid #828282;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+	/* SEARCH */
+
+	width: 53px;
+	height: 19px;
+	left: 136px;
+	top: 908px;
+
+	font-family: Manrope;
+	font-size: 14px;
+	line-height: 16px;
+
+	/* Gray 3 */
+	color: #828282;
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+	main{
+		margin-bottom: 500px;
+	}
+	}
+
+
+@media screen and (max-width: 400px) {
+.col-xs-12  input{
+	/* search_field */
+
+margin-top: 110px;
+width: 1050px;
+height: 100px;
+left: 61px;
+font-family: Manrope;
+font-size: 50px;
+line-height: 16px;
+margin-bottom: 50px;
+/* Inactive State */
+color: #C9C8C9;
+
+
+}
+}
+
+
+
+
+
+main .small-3{
+	/* About Us */
+	width: 70px;
+	height: 29px;
+	margin-top: 30px;
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+
+	color: #000000;
+
+
+}
+
+main .btnn{
+	/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci. */
+width: 205px;
+height: 99px;
+left: 120px;
+top: 1037px;
+margin-bottom: 50px;
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+main .col-xs-12 .btnn{ 
+		font-size: 100px;
+		width: 1000px;
+		margin-bottom: 600px;
+	}}
+
+
+
+
+main .card-text-1{
+	/* Lorem ipsum dolor sit amet, ea nusquam verterem consetetur sit. Ne reque congue elaboraret has. Eu nam enim offendit, mea latine meliore ex, eos ad omnis assueverit. Et scaevola iudicabit eos, iisque scripta insolens an vel, in cum mollis tibique perpetua. Partem dolorem ad pri. */
+
+width: 650px;
+height: 131px;
+left: 527px;
+top: 1540px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+main .small-4{
+	/* About Us */
+width: 500px;
+height: 29px;
+left: 36px;
+top: 2420px;
+margin-top: 40px;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+}
+}
+
+@media screen and (max-width: 600px) {
+main .btnn{
+/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci. */
+margin-bottom: 25px;
+width: 190px;
+height: 99px;
+left: 33px;
+top: 2464px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+}
+
+}
+
+main .cat{
+	/* Categories */
+
+width: 500px;
+height: 29px;
+left: 123px;
+top: 1186px;
+padding-top: 25px;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 29px;
+margin-bottom: 50px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+@media screen and (max-width: 600px) {
+.cat{
+	/* Categories */
+
+width: 500px;
+
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+
+
+/* identical to box height */
+
+color: #000000;
+margin-bottom: 70px;
+}
+
+}
+
+
+.cat-1{
+	/* Workout Routine (45) */
+width: 214px;
+height: 33px;
+left: 120px;
+top: 1326px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+@media screen and (max-width: 600px) {
+.cat-1{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+font-size: 80px
+
+
+}
+
+}
+
+.cat-2{
+	/* Fitness (73) */
+
+width: 118px;
+height: 33px;
+left: 120px;
+top: 1278px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+@media screen and (max-width: 600px) {
+.cat-2{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+font-size: 80px
+
+
+}
+
+}
+
+
+.cat-3{
+	/* Workout Routine (45) */
+width: 214px;
+height: 33px;
+left: 120px;
+top: 1326px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+@media screen and (max-width: 600px) {
+.cat-3{
+	/* Categories */
+margin-bottom: 100px;
+width: 800px;
+font-size: 80px
+
+
+}
+
+}
+
+
+
+
+
+
+.cat-4{
+	/* Lifestyle (3) */
+width: 120px;
+height: 33px;
+left: 120px;
+top: 1374px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+@media screen and (max-width: 600px) {
+.cat-4{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+font-size: 80px
+
+
+}
+
+}
+
+
+.cat-5{
+	/* Fashion (10) */
+width: 122px;
+height: 33px;
+left: 120px;
+top: 1422px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+.cat-5{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+font-size: 80px
+
+
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+.cat-6{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+font-size: 80px
+
+
+}
+
+}
+
+
+
+.cat-6{
+	/* Diet (89) */
+width: 89px;
+height: 33px;
+left: 120px;
+top: 1470px;
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+}
+
+
+@media screen and (max-width: 600px) {
+.cat-6{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+font-size: 80px
+
+
+}
+
+}
+
+main .img-1{
+	/* Rectangle 165 */
+width: 100px;
+height: 200px;
+left: 120px;
+top: 1741px;
+
+background: url(.jpg), #C4C4C4;
+
+}
+
+@media screen and (max-width: 600px) {
+main .col-6 {
+width: 1000px;
+}
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+main .col-6 .img-1{
+	/* Categories */
+margin-bottom: 100px;
+width: 500px;
+height: auto;
+float: left;
+}
+
+}
+
+.small-5{
+	/* EveryDay Counts */
+width: 125px;
+height: 70px;
+left: 240px;
+
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #646464;
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+.small-5{
+
+/* EveryDay Counts */
+width: 500px;
+height: 50px;
+
+font-family: Manrope;
+font-size: 56px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #646464;
+
+
+}
+}
+
+.small-6{
+	/* Jun 20, 2020 */
+width: 113px;
+
+left: 240px;
+
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+.small-6{
+		/* Jun 20, 2020 */
+width: 500px;
+
+margin-bottom: 300px;
+
+
+
+font-family: Manrope;
+font-size: 80px;
+
+/* or 33px */
+
+color: #808080;
+
+
+	}
+	}
+
+
+@media screen and (max-width: 600px) {
+.small-7{
+	/* Categories */
+padding-top: 100px;
+margin-bottom: 100px;
+width: 700px;
+font-size: 60px
+
+
+}
+
+}
+
+.small-8{
+	/* Rectangle 165 */
+
+width: 100px;
+height: 200px;
+left: 120px;
+top: 1741px;
+
+background: url(.jpg), #C4C4C4;
+
+}
+
+
+@media screen and (max-width: 600px) {
+main .col-12 .small-8{
+	/* Categories */
+
+margin-bottom: 50px;
+width: 500px;
+height: auto;
+left: 33px;
+padding: 0px;
+margin: 0px;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+.carrd .card-title, .carrd .card-img, .carrd .card-text-1 {
+	font-size: 53px;
+	width: 1050px;
+}
+}
+
+
+.small-9{
+	/* An Apple a day keep you healty */
+width: 125px;
+height: 70px;
+left: 240px;
+
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #646464;
+margin-bottom: 70px;
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+main .col-12 .small-9{
+	/* Categories */
+
+width: 300px;
+font-size: 60px;
+
+margin-bottom: 300px;
+}
+
+}
+
+
+main .img-2{
+	/* Rectangle 165 */
+margin-top:50px;
+width: 100px;
+height: 150px;
+left: 120px;
+top: 1881px;
+
+background: url(.jpg), #C4C4C4;
+
+}
+
+
+@media screen and (max-width: 600px) {
+main .col-12 .img-2{
+/* Rectangle 165 */
+width: 500px;
+height: auto;
+left: 33px;
+top: 3308px;
+margin:0;
+padding: 0;
+
+
+}
+}
+
+
+.img-3{
+	margin-top:50px;
+	width: 100px;
+	height: 150px;
+	left: 120px;
+	top: 1881px;
+
+	background: url(.jpg), #C4C4C4;
+}
+@media screen and (max-width: 600px) {
+	 .col-12 .media .img-3{
+		width: 500px;
+		height: 300px;
+		left: 33px;
+		top: 3308px;
+		margin-bottom: 150px;
+	}
+	}
+
+
+
+
+
+
+.small-10{
+	/* New Workout Routine */
+
+width: 120px;
+height: 70px;
+left: 240px;
+top: 1881px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #646464;
+
+
+}
+
+.small-11{
+	/* Activities */
+
+
+width: 210px;
+height: 33px;
+left: 123px;
+top: 2079px;
+
+font-family: Manrope;
+font-size: 20px;
+line-height: 166.6%;
+/* or 33px */
+
+color: #808080;
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+main .tag{
+	font-size: 80px;
+	font-family: Manrope;
+	width: 500px;
+	margin-bottom: 80px;
+}
+}
+
+@media screen and (max-width: 600px) {
+ .small-10{
+	/* New Workout Routine */
+width: 300px;
+font-size: 60px;
+
+margin-bottom: 150px;
+color: #646464;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+ .small-11{
+width: 1000px;
+font-size: 90px;
+
+ }
+}
+
+
+
+.card{
+	
+	height:670px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+main .card { 
+	margin-top: auto;
+	height: 1500px;
+	width: 1050px;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+}
+
+
+
+
+
+
+main .card .card-text{
+	/* Global Fitness Day Marked by our team */
+
+/* Global Fitness Day Marked by our team */
+
+width: 800px;
+height: 38px;
+left: 527px;
+top: 1482px;
+
+font-family: Manrope;
+font-size: 50px;
+line-height: 40px;
+
+color: #000000;
+
+
+
+
+
+}
+
+main .card-text{
+	/* Global Fitness Day Marked by our team */
+width: 478px;
+height: 38px;
+left: 527px;
+top: 1482px;
+
+font-family: Manrope;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+main	.card-text-1{
+		/* Lorem ipsum dolor sit amet, ea nusquam verterem consetetur sit. Ne reque congue elaboraret has. Eu nam enim offendit, mea latine meliore ex, eos ad omnis assueverit. Et scaevola iudicabit eos, iisque scripta insolens an vel, in cum mollis tibique perpetua. Partem dolorem ad pri. */
+width: auto;
+height: 167px;
+left: 30px;
+top: 1116px;
+margin-bottom: 0px;
+
+font-family: Manrope;
+font-size: 50px;
+line-height: 166.6%;
+/* or 23px */
+
+color: #808080;
+
+
+
+	}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+main .card-img-top{
+	margin: 0px;
+	width: 1100px;
+	height: 300px;
+	margin-left: 0px;
+}
+}
+
+@media screen and (max-width: 400px) {
+main .doit{
+	/* Rectangle 1299 */
+/* Rectangle 1299 */
+width: autopx;
+left: 0px;
+top: 1357px;
+
+background: #0D0D0D;
+
+
+}
+}
+
+.col-xs-12 .small-12{
+	margin-right: 450px;
+}
+
+@media screen and (max-width: 600px) {
+	.small-12{
+		margin-left:200px;
+		width: 500px;
+
+	}
+	}
+
+
+@media screen and (max-width: 600px) {
+	main.card-title{
+		font-size: 50px;
+	}
+	}
+
+
+@media screen and (max-width: 600px) {
+	main .date{
+		padding-top: 500px;
+		font-size: 200px;
+	}
+	}
+
+@media screen and (max-width: 600px) {
+ main .about{
+	width: 460px;
+	font-size: 45px;
+	
+}
+
+@media screen and (max-width: 600px) {
+main .pagination{
+	margin-left: 300px;
+	font-size: 100px;
+}
+
+@media screen and (max-width: 600px) {
+main .col-xs-6 img{
+height: 230px;
+width: 130px;
+margin-left: 10px;
+}
+}
