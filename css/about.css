@@ -117,7 +117,7 @@ body {
   font-size: 72px;
   font-family: 'Bebas Neue', cursive;
   line-height: 72px;
-  background-image: url(../images/OUR\TEAM.png);
+  background-image: url('../images/OUR\ TEAM.png');
   background-repeat: no-repeat;
   background-size: 100% 2em;
   width: 100%;
@@ -152,13 +152,13 @@ body {
 } */
 
 .story {
-  background-image: url(../images/OUR\STORY.png);
+  background-image: url('../images/OUR\ STORY.png');
   background-repeat: no-repeat;
   background-size: 100% 10em;
 }
 
 .culture {
-  background-image: url(../images/OUR\CULTURE.png);
+  background-image: url('../images/OUR\ CULTURE.png');
   background-repeat: no-repeat;
   background-size: 100% 10em;
 }
