@@ -1,7 +1,6 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <link rel="icon" href="./public/befit.png" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -12,435 +11,737 @@
     />
     <link rel="apple-touch-icon" href="./public/logo192.png" />
     <link rel="manifest" href="./public/manifest.json" />
-    
-    <link href="./css/fontawesome/fontawesome-free-5.13.1-web/css/all.css" rel="stylesheet"> 
-    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/animate.css" rel="stylesheet">
-    <link href="./css/font-body.css" rel="stylesheet">
-    <link href="./css/header-footer.css" rel="stylesheet">
-    
+
+    <link
+      href="./css/fontawesome/fontawesome-free-5.13.1-web/css/all.css"
+      rel="stylesheet"
+    />
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/animate.css" rel="stylesheet" />
+    <link href="./css/font-body.css" rel="stylesheet" />
+    <link href="./css/header-footer.css" rel="stylesheet" />
+
     <!-- CUSTOM CSS -->
-    <link href="./css/bmipage.css" rel="stylesheet">
-    
+    <link href="./css/bmipage.css" rel="stylesheet" />
     <title>BMI Calculator | BEFIT</title>
-    
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="d-flex flex-column m-0 w-100 maincon">
-        
-        <header>
+      <header>
+        <div class="containe m-0 p-0 mx-auto">
+          <nav class="navbar navbar-expand-lg navbar-light main_nav_mb">
+            <a class="navbar-brand company_name" href="index.html"
+              >BE<span style="color: #ff4301;">FIT</span></a
+            >
 
-        </header>
+            <button class="outside outside_btn_nav_qobi">JOIN US</button>
+            <button
+              class="navbar-toggler nav_btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <main>
-            <!-- hero -->
-            <section class="w-100 m-0 p-0 herocon">
-                <div class="wow fadeIn d-flex flex-column h-100 m-0 p-0 mx-auto containe" data-wow-delay=".4s">
-                    <div class="d-flex align-items-end justify-content-start w-100 header1">
-                        <h1 class="mt-5">BMI CALCULATOR</h1>
-                    </div>
-                    <div class="d-flex flex-column align-items-start justify-content-start w-100 header2" >
-                        <h5 class="my-3">Calculate how healthy your weight is based on how tall you are</h5>
-                        <a href="#bmi_calc">
-                            <button class="mt-2">CHECK NOW &nbsp; &#8595;</button>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav align-items-center">
+                <a class="nav-item nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+                <a class="nav-item nav-link" href="services.html">Services</a>
+                <a class="nav-item nav-link" href="plans.html">Plans</a>
+                <a class="nav-item nav-link" href="meet-the-team.html"
+                  >Meet The Team</a
+                >
+                <a class="nav-item nav-link active" href="#">BMI Calculator</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="about.html">About Us</a>
+                <a class="nav-item nav-link" href="#">Contact Us</a>
+                <button class="inside_btn_nav_qobi">JOIN US</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
 
-            <!-- bmi calculator section -->
-            <section class="w-100 m-0 p-0 py-5 bmi mb-5" id="bmi_calc">
-                <div class="d-flex flex-column align-items-center m-0 p-0 pt-3 mx-auto containe">
-                    <!-- header -->
-                    <div class="col-12 m-0 p-0 w-100 bmi-header">
-                        <h3 class="m-0 p-0 mb-2">YOUR BMI AND HEALTHY WEIGHT RANGE</h3>
-                    </div>
-                    
-                    <div class="col-12 m-0 p-0 bmi-container"  data-wow-delay=".4s">
-                        <!-- left section-->
-                        <div class="wow fadeInLeft d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 py-4 left-section"  data-wow-delay=".2s">
-                            <div class="d-flex flex-column w-100 m-0 p-0 bmi-calculator">
-                                <div class="w-100 m-0 p-0 mb-3 bmi-description">
-                                    <p>There's no "perfect weight" that fits everyone. BMI, or body mass index, 
-                                        measures how healthy your weight is based on how tall you are. 
-                                        It gives you a clue to your risk for weight-related health problems.
-                                        If you're over 20 and not pregnant, find out what your number is and what it means.
-                                    </p>
-                                </div>
-                                <div class="w-100 m-0 p-0">
-                                    <form class="d-flex flex-column">
-                                        <div class="w-100 mb-4 align-items-end height-con">
-                                            <div class="d-flex flex-column w-100">
-                                                <label for="height">Height</label>
-                                                <div class="d-flex align-items-center">
-                                                    <input type="number" name="height" placeholder="1 - 9" required>
-                                                    <p class="m-0">feet</p>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center w-100">
-                                                <input type="number" placeholder="0 - 11" required>
-                                                <p class="m-0">inches</p>
-                                            </div>
-                                        </div>
-                                        <label for="weight">Weight</label>
-                                        <div class="d-flex align-items-center mb-4">
-                                            <input type="number" name="weight" placeholder="80 - 800" required>
-                                            <p class="m-0">pounds</p>
-                                        </div>
-                                        <button>CALCULATE &nbsp; &#8594;</button>
+      <main>
+        <!-- hero -->
+        <section class="w-100 m-0 p-0 herocon">
+          <div
+            class="wow fadeIn d-flex flex-column h-100 m-0 p-0 mx-auto containe"
+            data-wow-delay=".4s"
+          >
+            <div
+              class="d-flex align-items-end justify-content-start w-100 header1"
+            >
+              <h1 class="mt-5">BMI CALCULATOR</h1>
+            </div>
+            <div
+              class="d-flex flex-column align-items-start justify-content-start w-100 header2"
+            >
+              <h5 class="my-3">
+                Calculate how healthy your weight is based on how tall you are
+              </h5>
+              <a href="#bmi_calc">
+                <button class="mt-2">CHECK NOW &nbsp; &#8595;</button>
+              </a>
+            </div>
+          </div>
+        </section>
 
-                                    </form>
-                                </div>
-    
-                            </div>
+        <!-- bmi calculator section -->
+        <section class="w-100 m-0 p-0 py-5 bmi mb-5" id="bmi_calc">
+          <div
+            class="d-flex flex-column align-items-center m-0 p-0 pt-3 mx-auto containe"
+          >
+            <!-- header -->
+            <div class="col-12 m-0 p-0 w-100 bmi-header">
+              <h3 class="m-0 p-0 mb-2">YOUR BMI AND HEALTHY WEIGHT RANGE</h3>
+            </div>
+
+            <div class="col-12 m-0 p-0 bmi-container" data-wow-delay=".4s">
+              <!-- left section-->
+              <div
+                class="wow fadeInLeft d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 py-4 left-section"
+                data-wow-delay=".2s"
+              >
+                <div class="d-flex flex-column w-100 m-0 p-0 bmi-calculator">
+                  <div class="w-100 m-0 p-0 mb-3 bmi-description">
+                    <p>
+                      There's no "perfect weight" that fits everyone. BMI, or
+                      body mass index, measures how healthy your weight is based
+                      on how tall you are. It gives you a clue to your risk for
+                      weight-related health problems. If you're over 20 and not
+                      pregnant, find out what your number is and what it means.
+                    </p>
+                    git
+                  </div>
+                  <div class="w-100 m-0 p-0">
+                    <form class="d-flex flex-column">
+                      <div class="w-100 mb-4 align-items-end height-con">
+                        <div class="d-flex flex-column w-100">
+                          <label for="height">Height</label>
+                          <div class="d-flex align-items-center">
+                            <input
+                              type="number"
+                              name="height"
+                              placeholder="1 - 9"
+                              required
+                            />
+                            <p class="m-0">feet</p>
+                          </div>
                         </div>
-
-                        <!-- right section -->
-                        <div class="wow fadeInRight d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 right-section"  data-wow-delay=".2s">
-                            <div class="d-flex flex-column w-100 m-0 p-0 bmi-result">
-                                <!-- header -->
-                                <div class="col-12 m-0 p-0 w-100 py-4">
-                                    <h3 class="m-0 p-0 mb-2">RESULT</h3>
-                                </div>
-                            </div>
-                            <div class="d-flex w-100 bmi-stats">
-                                <div class="d-flex flex-column">
-                                    <div class="d-flex align-items-center mb-4">
-                                        <p class="m-0 mr-3">Your BMI is :</p>
-                                        <div class="bmi-score">
-                                            <h2 class="m-0">38.5</h2>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="col-12 m-0 p-0 w-100 pt-4 pb-2 mt-4">
-                                            <h3 class="m-0 p-0 mb-2">ANALYSIS</h3>
-                                        </div>  
-                                        <div>
-                                            <p>
-                                                Since your weight puts you in the obese range, 
-                                                you're much more likely to have serious health problems.
-                                                The healthy range for BMI is between 18.5 and 24.9.
-                                                A healthy weight for someone your height would be
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-row stats">
-                                    <div class="d-flex you justify-content-end" >
-                                        <div class="you_container m-0 p-0">
-                                            <div class="px-4"></div>
-                                            <div class="d-flex align-items-center w-100 h-100 you_txt_container">
-                                                <p class="m-0 p-0 you_txt">You</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex meter-container">
-                                        <div class="meter"></div>
-                                        <div class="d-flex flex-column justify-content-start meter-measure">
-                                            <div class="measure">
-                                                <p class="phead">OBESE</p>
-                                                <p>30 and above</p>
-                                            </div>
-                                            <div class="measure">
-                                                <p class="phead">OVERWEIGHT</p>
-                                                <p>25.0 - 29.9</p>
-                                            </div>
-                                            <div class="measure">
-                                                <p class="phead">HEALTHY</p>
-                                                <p>18.5 - 24.9</p>
-                                            </div>
-                                            <div class="measure last">
-                                                <p class="phead">UNDERWEIGHT</p>
-                                                <p>below 18.5</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="d-flex align-items-center w-100">
+                          <input type="number" placeholder="0 - 11" required />
+                          <p class="m-0">inches</p>
                         </div>
-                    </div>
-                    
-                </div>
-            </section>
-
-            <section class="w-100 m-0 p-0 py-5 bmi my-5">
-                <div class="wow fadeIn d-flex flex-column align-items-center m-0 p-0 mx-auto containe" data-wow-delay=".4s">
-                    <!-- header -->
-                    <div class="col-12 m-0 p-0 w-100 bmi-header">
-                        <h3 class="m-0 p-0 mb-2">YOUR FOOD AND EXERCISE TIPS</h3>
-                    </div>
-                    
-                    <div class="col-12 m-0 p-0 bmi-container">
-                        <!-- left section-->
-                        <div class="wow fadeInLeft d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 py-4 left-section"  data-wow-delay=".2s">
-                            <div class="d-flex flex-column w-100 m-0 p-0 bmi-calculator">
-                                <div class="w-100 m-0 p-0 mb-3 bmi-description">
-                                    <p>Find out how many calories your body is using 
-                                       each day and what you can do to get your weight where 
-                                       you want it to be.
-                                    </p>
-                                </div>
-                                <div class="w-100 m-0 p-0">
-                                    <form class="d-flex flex-column">
-                                        <label for="sex">Sex</label>
-                                        <div class="d-flex align-items-center justify-content-start m-0 p-0 mb-3">
-                                            <div class="d-flex align-items-center mr-4">
-                                                <input type="radio" name="sex" class="m-0 p-0 mr-2">
-                                                <p class="m-0">male</p>
-                                            </div>
-                                            <div class="d-flex align-items-center">
-                                                <input type="radio" name="sex" class="m-0 p-0 mr-2">
-                                                <p class="m-0">female</p>
-                                            </div>
-                                            
-                                        </div>
-                                        <label for="age">Age</label>
-                                        <div class="d-flex align-items-center mb-3">
-                                            <input type="number" name="age" required>
-                                            <p class="m-0">years</p>
-                                        </div>
-                                        <label for="active">How active are you</label>
-                                        <div class="d-flex align-items-center mb-3">
-                                            <select name="active" required>
-                                                <option class="m-0">Select</option>
-                                                <option class="m-0">Not Active</option>
-                                                <option class="m-0">Lightly Active</option>
-                                                <option class="m-0">Moderately Active</option>
-                                                <option class="m-0">Very Active</option>
-                                                <option class="m-0">Extremely Active</option>
-                                            </select>
-                                        </div>
-                                        <label for="goal">Weight Goal</label>
-                                        <div class="d-flex align-items-center mb-4">
-                                            <select name="goal" required>
-                                                <option class="m-0">Select</option>
-                                                <option class="m-0">Loose</option>
-                                                <option class="m-0">Stay the same</option>
-                                                <option class="m-0">Gain</option>
-                                            </select>
-                                        </div>
-                                        <button>CALCULATE  &nbsp; &#8594;</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- right section -->
-                        <div class="wow fadeInRight d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 right-section"  data-wow-delay=".2s">
-                            <div class="wow fadeInRight d-flex flex-column w-100 m-0 p-0 bmi-result" id="main_section" data-wow-delay=".4s">
-                                <!-- header -->
-                                <div class="m-0 p-0 w-100 py-4" >
-                                    <h3 class="m-0 p-0 mb-2">RESULT</h3>
-                                </div>
-                                <div class="d-flex w-100 bmi-stats" >
-                                    <div class="d-flex flex-column">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <p class="m-0 mr-1 pz">Current Daily Calories Needed :</p>
-                                            <div class="bmi-score">
-                                                <h2 class="m-0">3343</h2>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class="col-12 m-0 p-0 w-100 pt-4 pb-2 mt-4">
-                                                <h3 class="m-0 p-0 mb-2">NOTE</h3>
-                                            </div>  
-                                            <div>
-                                                <p>
-                                                    This is about how many calories your body uses to do all the things you need it to in a day: breathing, blinking, chewing, reaching, talking, walking, and more. It's the number you should start with as you decide how to reach your weight goal.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="m-0 p-0 w-100 pt-4 my-3 heart-rate-div">
-                                    <h3 class="m-0 p-0 mb-3 heart-rate" id="t_h_r_btn">TARGET HEART RATES  &nbsp; &#8594;</h3>
-                                </div>
-                            </div>
-                            <!-- TARGET HEART RATES -->
-                            <div class="d-flex flex-column w-100 m-0 p-0 bmi-result" id="t_h_r">
-                                <!-- header -->
-                                <div class="d-flex flex-column align-items-end m-0 p-0 w-100 py-4 text-right heart-rate-div-sub">
-                                    <span id="main_section_btn">
-                                        <h4 class="m-0 p-0 mb-1">&#8592;</h4>
-                                        <h4 class="m-0 p-0" >BACK TO RESULT</h4>
-                                    </span>
-                                </div>
-                                <div class="m-0 p-0 w-100 my-3 heart-rate-div">
-                                    <h3 class="m-0 p-0 mb-3 heart-rate" style="color:#000">TARGET HEART RATES</h3>
-                                </div>
-                                <div class="m-0 p-0 w-100 pt-4 my-3 heart-rate-div-sub">
-                                    <h4 class="m-0 p-0 mb-3 heart-rate" id="g_f_r_btn">GENERAL FITNESS RATES  &nbsp; &#8594;</h4>
-                                    <p class="m-0 phead">MODERATE INTENSITY</p>
-                                    <p class="m-0">100 - 130 <span style="color:#FF4301">BPM</span></p>
-                                </div>
-                                <div class="m-0 p-0 w-100 pt-4 my-3 heart-rate-div-sub">
-                                    <h4 class="m-0 p-0 mb-3 heart-rate" id="i_h_r_btn">INTERVAL HEART RATE  &nbsp; &#8594;</h4>
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="m-0 phead">RECOVERY</p>
-                                            <p class="m-0">100 - 130 <span style="color:#FF4301">BPM</span></p>
-                                        </div>
-                                        <div>
-                                            <p class="m-0 phead">HIGH INTENSITY</p>
-                                            <p class="m-0">160 - 170 <span style="color:#FF4301">BPM</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- GENERAL FITNESS RATES -->
-                            <div class="d-flex flex-column w-100 m-0 p-0 bmi-result" id="g_f_r">
-                                <!-- header -->
-                                <div class="d-flex flex-column align-items-end m-0 p-0 w-100 py-4 text-right heart-rate-div-sub">
-                                    <span id="t_h_r_prev1"> 
-                                        <h4 class="m-0 p-0 mb-1">&#8592;</h4>
-                                        <h4 class="m-0 p-0">BACK TO PREVIOUS</h4>
-                                    </span>
-                                </div>
-                                <div class="m-0 p-0 w-100 my-3 heart-rate-div">
-                                    <h3 class="m-0 p-0 mb-3 heart-rate" style="color:#000">GENERAL FITNESS RATES</h3>
-                                </div>
-                                <div class="py-4">
-                                    <p>
-                                        For a healthy workout, get your heart rate up into this target zone for at least 10 minutes at a time. 
-                                        You should be able to talk but not sing, and you should break a sweat. Try:
-                                    </p>
-                                    <p>Walking as fast as you can</p>
-                                    <p>Riding your bike</p>
-                                    <p>Playing doubles tennis</p>    
-                                    <p>Cutting the lawn with a push mower</p>
-                                    <p>Aim for a total of at least 150 minutes every week.</p>
-                                    <p>Pressed for time? You can get the same health gains in 75 minutes a week by bumping your heart rate into 
-                                        the upper end of your general fitness zone. Try:</p>
-                                    <p>Jogging</p>
-                                    <p>Aerobics or cycling class</p>
-                                    <p>Playing singles tennis</p>
-                                    <p>Heavy yard work, like shoveling</p>
-                                </div>
-                            </div>
-                            <!-- INTERVAL HEART RATES -->
-                            <div class="d-flex flex-column w-100 m-0 p-0 bmi-result" id="i_h_r">
-                                <!-- header -->
-                                <div class="d-flex flex-column align-items-end m-0 p-0 w-100 py-4 text-right heart-rate-div-sub">
-                                    <span id="t_h_r_prev2"> 
-                                        <h4 class="m-0 p-0 mb-1">&#8592;</h4>
-                                        <h4 class="m-0 p-0">BACK TO PREVIOUS</h4>
-                                    </span>
-                                </div>
-                                <div class="m-0 p-0 w-100 my-3 heart-rate-div">
-                                    <h3 class="m-0 p-0 mb-3 heart-rate" style="color:#000">INTERVAL HEART RATES</h3>
-                                </div>
-                                <div class="py-4">
-                                    <p>
-                                        Boost your exercise benefits with interval training.
-                                    </p>
-                                    <p>High-intensity interval training, or HIIT, will help you burn calories and fat 
-                                        as well as build endurance and slow the aging process.</p>
-                                    <p>After you warm up for 5-10 minutes, alternate bursts of exercise in your high-intensity target zone with short 
-                                        recovery periods at around half of your maximum heart rate.</p>
-                                    <p>For example, run as fast as you can for 1 minute, then walk for 2 minutes. 
-                                        Do that five times for a great workout in only 15 minutes.</p>
-                                    <p>Mix up your workouts during the week.</p>
-                                    <p>High-intensity intervals: 2-3 times</p>
-                                    <p>General fitness: 3 times</p>
-                                    <p>If you have a medical condition, check with your doctor before you try pushing yourself hard.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="wow fadeIn w-100 m-0 p-0 mob" data-wow-delay=".4s">
-                <div class="d-flex flex-column h-100 m-0 p-0 mx-auto containe">
-                    <div class="d-flex align-items-end justify-content-start w-100 header1">
-                        <h1 class="m-0">WANT TO LIVE YOUR BEST LIFE</h1>
-                    </div>
-                </div>
-            </section>
-            <section class="w-100 m-0 p-0 subfootercon mt-5">
-                <div class="d-flex flex-column h-100 m-0 p-0 mx-auto containe">
-                    <div class="d-flex align-items-end justify-content-start w-100 header1 pt-5 desk">
-                        <h1 class="m-0">WANT TO LIVE YOUR BEST LIFE</h1>
-                    </div>
-                    <div class="d-flex flex-column align-items-start justify-content-start w-100 header2" >
-                        <h5 class="mt-3 mb-4">Get the Food and Fitness newsletter for health tips, wellness updates and more.</h5>
-                        <form class="wow fadeInLeft m-0 py-5 mt-3 desk" data-wow-delay=".4s">
-                            <div class="d-flex form-con m-0 mx-auto form-content" >
-                                <div class="d-flex justify-content-center align-items-center m-0 p-0 mail">
-                                    <img src="./assets/images/icon/Group.png" alt="mail icon" class="m-0">
-                                </div>
-                                <div class="email-section">
-                                    <label for="email">Email Address</label>
-                                    <div class="d-flex align-items-center mb-2">
-                                        <input type="email" name="email" required>
-                                         <p class="m-0">years</p>
-                                    </div>
-                                    <div class="m-0 mb-4">
-                                        <p>
-                                            By clicking “Subscribe”, I agree to the 
-                                            <span class="logo">BE<span class="logo-2">FIT</span></span>          
-                                            Terms and Conditions and Privacy Policy. 
-                                            I also agree to receive emails from               
-                                            <span class="logo">BE<span class="logo-2">FIT</span></span>          
-                                            and I understand that I may opt of the  
-                                            <span class="logo">BE<span class="logo-2">FIT</span></span>          
-                                            subscriptions at any time.
-                                        </p>
-                                    </div>
-                                    <button>SUBSCRIBE  &nbsp; &#8594;</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section> 
-            <section>
-                <div class="d-flex flex-column h-100 m-0 p-0 mx-auto containe">
-                    <form class="wow fadeInLeft m-0 py-5 mb-3 mob" data-wow-delay=".4s">
-                        <div class="d-flex form-con m-0 mx-auto form-content" >
-                            <div class="d-flex justify-content-center align-items-center m-0 p-0 mail">
-                                <img src="./assets/images/icon/Group.png" alt="mail icon" class="m-0">
-                            </div>
-                            <div class="email-section">
-                                <label for="email">Email Address</label>
-                                <div class="d-flex align-items-center mb-2">
-                                    <input type="email" name="email" required>
-                                    <!-- <p class="m-0">years</p> -->
-                                </div>
-                                <div class="m-0 mb-4">
-                                    <p>
-                                        By clicking “Subscribe”, I agree to the 
-                                        <span class="logo">BE<span class="logo-2">FIT</span></span>          
-                                        Terms and Conditions and Privacy Policy. 
-                                        I also agree to receive emails from               
-                                        <span class="logo">BE<span class="logo-2">FIT</span></span>          
-                                        and I understand that I may opt of the  
-                                        <span class="logo">BE<span class="logo-2">FIT</span></span>          
-                                        subscriptions at any time.
-                                    </p>
-                                </div>
-                                <button>SUBSCRIBE  &nbsp; &#8594;</button>
-                            </div>
-                        </div>
+                      </div>
+                      <label for="weight">Weight</label>
+                      <div class="d-flex align-items-center mb-4">
+                        <input
+                          type="number"
+                          name="weight"
+                          placeholder="80 - 800"
+                          required
+                        />
+                        <p class="m-0">pounds</p>
+                      </div>
+                      <button>CALCULATE &nbsp; &#8594;</button>
                     </form>
+                  </div>
                 </div>
+              </div>
+
+              <!-- right section -->
+              <div
+                class="wow fadeInRight d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 right-section"
+                data-wow-delay=".2s"
+              >
+                <div class="d-flex flex-column w-100 m-0 p-0 bmi-result">
+                  <!-- header -->
+                  <div class="col-12 m-0 p-0 w-100 py-4">
+                    <h3 class="m-0 p-0 mb-2">RESULT</h3>
+                  </div>
+                </div>
+                <div class="d-flex w-100 bmi-stats">
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center mb-4">
+                      <p class="m-0 mr-3">Your BMI is :</p>
+                      <div class="bmi-score">
+                        <h2 class="m-0">38.5</h2>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="col-12 m-0 p-0 w-100 pt-4 pb-2 mt-4">
+                        <h3 class="m-0 p-0 mb-2">ANALYSIS</h3>
+                      </div>
+                      <div>
+                        <p>
+                          Since your weight puts you in the obese range, you're
+                          much more likely to have serious health problems. The
+                          healthy range for BMI is between 18.5 and 24.9. A
+                          healthy weight for someone your height would be
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row stats">
+                    <div class="d-flex you justify-content-end">
+                      <div class="you_container m-0 p-0">
+                        <div class="px-4"></div>
+                        <div
+                          class="d-flex align-items-center w-100 h-100 you_txt_container"
+                        >
+                          <p class="m-0 p-0 you_txt">You</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-flex meter-container">
+                      <div class="meter"></div>
+                      <div
+                        class="d-flex flex-column justify-content-start meter-measure"
+                      >
+                        <div class="measure">
+                          <p class="phead">OBESE</p>
+                          <p>30 and above</p>
+                        </div>
+                        <div class="measure">
+                          <p class="phead">OVERWEIGHT</p>
+                          <p>25.0 - 29.9</p>
+                        </div>
+                        <div class="measure">
+                          <p class="phead">HEALTHY</p>
+                          <p>18.5 - 24.9</p>
+                        </div>
+                        <div class="measure last">
+                          <p class="phead">UNDERWEIGHT</p>
+                          <p>below 18.5</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="w-100 m-0 p-0 py-5 bmi my-5">
+          <div
+            class="wow fadeIn d-flex flex-column align-items-center m-0 p-0 mx-auto containe"
+            data-wow-delay=".4s"
+          >
+            <!-- header -->
+            <div class="col-12 m-0 p-0 w-100 bmi-header">
+              <h3 class="m-0 p-0 mb-2">YOUR FOOD AND EXERCISE TIPS</h3>
+            </div>
+
+            <div class="col-12 m-0 p-0 bmi-container">
+              <!-- left section-->
+              <div
+                class="wow fadeInLeft d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 py-4 left-section"
+                data-wow-delay=".2s"
+              >
+                <div class="d-flex flex-column w-100 m-0 p-0 bmi-calculator">
+                  <div class="w-100 m-0 p-0 mb-3 bmi-description">
+                    <p>
+                      Find out how many calories your body is using each day and
+                      what you can do to get your weight where you want it to
+                      be.
+                    </p>
+                  </div>
+                  <div class="w-100 m-0 p-0">
+                    <form class="d-flex flex-column">
+                      <label for="sex">Sex</label>
+                      <div
+                        class="d-flex align-items-center justify-content-start m-0 p-0 mb-3"
+                      >
+                        <div class="d-flex align-items-center mr-4">
+                          <input type="radio" name="sex" class="m-0 p-0 mr-2" />
+                          <p class="m-0">male</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <input type="radio" name="sex" class="m-0 p-0 mr-2" />
+                          <p class="m-0">female</p>
+                        </div>
+                      </div>
+                      <label for="age">Age</label>
+                      <div class="d-flex align-items-center mb-3">
+                        <input type="number" name="age" required />
+                        <p class="m-0">years</p>
+                      </div>
+                      <label for="active">How active are you</label>
+                      <div class="d-flex align-items-center mb-3">
+                        <select name="active" required>
+                          <option class="m-0">Select</option>
+                          <option class="m-0">Not Active</option>
+                          <option class="m-0">Lightly Active</option>
+                          <option class="m-0">Moderately Active</option>
+                          <option class="m-0">Very Active</option>
+                          <option class="m-0">Extremely Active</option>
+                        </select>
+                      </div>
+                      <label for="goal">Weight Goal</label>
+                      <div class="d-flex align-items-center mb-4">
+                        <select name="goal" required>
+                          <option class="m-0">Select</option>
+                          <option class="m-0">Loose</option>
+                          <option class="m-0">Stay the same</option>
+                          <option class="m-0">Gain</option>
+                        </select>
+                      </div>
+                      <button>CALCULATE &nbsp; &#8594;</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- right section -->
+              <div
+                class="wow fadeInRight d-flex flex-column col-sm-12 col-md-12 col-lg-6 col-xl-6 m-0 p-0 right-section"
+                data-wow-delay=".2s"
+              >
+                <div
+                  class="wow fadeInRight d-flex flex-column w-100 m-0 p-0 bmi-result"
+                  id="main_section"
+                  data-wow-delay=".4s"
+                >
+                  <!-- header -->
+                  <div class="m-0 p-0 w-100 py-4">
+                    <h3 class="m-0 p-0 mb-2">RESULT</h3>
+                  </div>
+                  <div class="d-flex w-100 bmi-stats">
+                    <div class="d-flex flex-column">
+                      <div class="d-flex align-items-center mb-4">
+                        <p class="m-0 mr-1 pz">
+                          Current Daily Calories Needed :
+                        </p>
+                        <div class="bmi-score">
+                          <h2 class="m-0">3343</h2>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="col-12 m-0 p-0 w-100 pt-4 pb-2 mt-4">
+                          <h3 class="m-0 p-0 mb-2">NOTE</h3>
+                        </div>
+                        <div>
+                          <p>
+                            This is about how many calories your body uses to do
+                            all the things you need it to in a day: breathing,
+                            blinking, chewing, reaching, talking, walking, and
+                            more. It's the number you should start with as you
+                            decide how to reach your weight goal.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="m-0 p-0 w-100 pt-4 my-3 heart-rate-div">
+                    <h3 class="m-0 p-0 mb-3 heart-rate" id="t_h_r_btn">
+                      TARGET HEART RATES &nbsp; &#8594;
+                    </h3>
+                  </div>
+                </div>
+                <!-- TARGET HEART RATES -->
+                <div
+                  class="d-flex flex-column w-100 m-0 p-0 bmi-result"
+                  id="t_h_r"
+                >
+                  <!-- header -->
+                  <div
+                    class="d-flex flex-column align-items-end m-0 p-0 w-100 py-4 text-right heart-rate-div-sub"
+                  >
+                    <span id="main_section_btn">
+                      <h4 class="m-0 p-0 mb-1">&#8592;</h4>
+                      <h4 class="m-0 p-0">BACK TO RESULT</h4>
+                    </span>
+                  </div>
+                  <div class="m-0 p-0 w-100 my-3 heart-rate-div">
+                    <h3 class="m-0 p-0 mb-3 heart-rate" style="color: #000;">
+                      TARGET HEART RATES
+                    </h3>
+                  </div>
+                  <div class="m-0 p-0 w-100 pt-4 my-3 heart-rate-div-sub">
+                    <h4 class="m-0 p-0 mb-3 heart-rate" id="g_f_r_btn">
+                      GENERAL FITNESS RATES &nbsp; &#8594;
+                    </h4>
+                    <p class="m-0 phead">MODERATE INTENSITY</p>
+                    <p class="m-0">
+                      100 - 130 <span style="color: #ff4301;">BPM</span>
+                    </p>
+                  </div>
+                  <div class="m-0 p-0 w-100 pt-4 my-3 heart-rate-div-sub">
+                    <h4 class="m-0 p-0 mb-3 heart-rate" id="i_h_r_btn">
+                      INTERVAL HEART RATE &nbsp; &#8594;
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <p class="m-0 phead">RECOVERY</p>
+                        <p class="m-0">
+                          100 - 130 <span style="color: #ff4301;">BPM</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p class="m-0 phead">HIGH INTENSITY</p>
+                        <p class="m-0">
+                          160 - 170 <span style="color: #ff4301;">BPM</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- GENERAL FITNESS RATES -->
+                <div
+                  class="d-flex flex-column w-100 m-0 p-0 bmi-result"
+                  id="g_f_r"
+                >
+                  <!-- header -->
+                  <div
+                    class="d-flex flex-column align-items-end m-0 p-0 w-100 py-4 text-right heart-rate-div-sub"
+                  >
+                    <span id="t_h_r_prev1">
+                      <h4 class="m-0 p-0 mb-1">&#8592;</h4>
+                      <h4 class="m-0 p-0">BACK TO PREVIOUS</h4>
+                    </span>
+                  </div>
+                  <div class="m-0 p-0 w-100 my-3 heart-rate-div">
+                    <h3 class="m-0 p-0 mb-3 heart-rate" style="color: #000;">
+                      GENERAL FITNESS RATES
+                    </h3>
+                  </div>
+                  <div class="py-4">
+                    <p>
+                      For a healthy workout, get your heart rate up into this
+                      target zone for at least 10 minutes at a time. You should
+                      be able to talk but not sing, and you should break a
+                      sweat. Try:
+                    </p>
+                    <p>Walking as fast as you can</p>
+                    <p>Riding your bike</p>
+                    <p>Playing doubles tennis</p>
+                    <p>Cutting the lawn with a push mower</p>
+                    <p>Aim for a total of at least 150 minutes every week.</p>
+                    <p>
+                      Pressed for time? You can get the same health gains in 75
+                      minutes a week by bumping your heart rate into the upper
+                      end of your general fitness zone. Try:
+                    </p>
+                    <p>Jogging</p>
+                    <p>Aerobics or cycling class</p>
+                    <p>Playing singles tennis</p>
+                    <p>Heavy yard work, like shoveling</p>
+                  </div>
+                </div>
+                <!-- INTERVAL HEART RATES -->
+                <div
+                  class="d-flex flex-column w-100 m-0 p-0 bmi-result"
+                  id="i_h_r"
+                >
+                  <!-- header -->
+                  <div
+                    class="d-flex flex-column align-items-end m-0 p-0 w-100 py-4 text-right heart-rate-div-sub"
+                  >
+                    <span id="t_h_r_prev2">
+                      <h4 class="m-0 p-0 mb-1">&#8592;</h4>
+                      <h4 class="m-0 p-0">BACK TO PREVIOUS</h4>
+                    </span>
+                  </div>
+                  <div class="m-0 p-0 w-100 my-3 heart-rate-div">
+                    <h3 class="m-0 p-0 mb-3 heart-rate" style="color: #000;">
+                      INTERVAL HEART RATES
+                    </h3>
+                  </div>
+                  <div class="py-4">
+                    <p>
+                      Boost your exercise benefits with interval training.
+                    </p>
+                    <p>
+                      High-intensity interval training, or HIIT, will help you
+                      burn calories and fat as well as build endurance and slow
+                      the aging process.
+                    </p>
+                    <p>
+                      After you warm up for 5-10 minutes, alternate bursts of
+                      exercise in your high-intensity target zone with short
+                      recovery periods at around half of your maximum heart
+                      rate.
+                    </p>
+                    <p>
+                      For example, run as fast as you can for 1 minute, then
+                      walk for 2 minutes. Do that five times for a great workout
+                      in only 15 minutes.
+                    </p>
+                    <p>Mix up your workouts during the week.</p>
+                    <p>High-intensity intervals: 2-3 times</p>
+                    <p>General fitness: 3 times</p>
+                    <p>
+                      If you have a medical condition, check with your doctor
+                      before you try pushing yourself hard.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="wow fadeIn w-100 m-0 p-0 mob" data-wow-delay=".4s">
+          <div class="d-flex flex-column h-100 m-0 p-0 mx-auto containe">
+            <div
+              class="d-flex align-items-end justify-content-start w-100 header1"
+            >
+              <h1 class="m-0">WANT TO LIVE YOUR BEST LIFE</h1>
+            </div>
+          </div>
+        </section>
+        <section class="w-100 m-0 p-0 subfootercon mt-5">
+          <div class="d-flex flex-column h-100 m-0 p-0 mx-auto containe">
+            <div
+              class="d-flex align-items-end justify-content-start w-100 header1 pt-5 desk"
+            >
+              <h1 class="m-0">WANT TO LIVE YOUR BEST LIFE</h1>
+            </div>
+            <div
+              class="d-flex flex-column align-items-start justify-content-start w-100 header2"
+            >
+              <h5 class="mt-3 mb-4">
+                Get the Food and Fitness newsletter for health tips, wellness
+                updates and more.
+              </h5>
+              <form
+                class="wow fadeInLeft m-0 py-5 mt-3 desk"
+                data-wow-delay=".4s"
+              >
+                <div class="d-flex form-con m-0 mx-auto form-content">
+                  <div
+                    class="d-flex justify-content-center align-items-center m-0 p-0 mail"
+                  >
+                    <img
+                      src="./assets/images/icon/Group.png"
+                      alt="mail icon"
+                      class="m-0"
+                    />
+                  </div>
+                  <div class="email-section">
+                    <label for="email">Email Address</label>
+                    <div class="d-flex align-items-center mb-2">
+                      <input type="email" name="email" required />
+                      <p class="m-0">years</p>
+                    </div>
+                    <div class="m-0 mb-4">
+                      <p>
+                        By clicking “Subscribe”, I agree to the
+                        <span class="logo"
+                          >BE<span class="logo-2">FIT</span></span
+                        >
+                        Terms and Conditions and Privacy Policy. I also agree to
+                        receive emails from
+                        <span class="logo"
+                          >BE<span class="logo-2">FIT</span></span
+                        >
+                        and I understand that I may opt of the
+                        <span class="logo"
+                          >BE<span class="logo-2">FIT</span></span
+                        >
+                        subscriptions at any time.
+                      </p>
+                    </div>
+                    <button>SUBSCRIBE &nbsp; &#8594;</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="d-flex flex-column h-100 m-0 p-0 mx-auto containe">
+            <form class="wow fadeInLeft m-0 py-5 mb-3 mob" data-wow-delay=".4s">
+              <div class="d-flex form-con m-0 mx-auto form-content">
+                <div
+                  class="d-flex justify-content-center align-items-center m-0 p-0 mail"
+                >
+                  <img
+                    src="./assets/images/icon/Group.png"
+                    alt="mail icon"
+                    class="m-0"
+                  />
+                </div>
+                <div class="email-section">
+                  <label for="email">Email Address</label>
+                  <div class="d-flex align-items-center mb-2">
+                    <input type="email" name="email" required />
+                    <!-- <p class="m-0">years</p> -->
+                  </div>
+                  <div class="m-0 mb-4">
+                    <p>
+                      By clicking “Subscribe”, I agree to the
+                      <span class="logo"
+                        >BE<span class="logo-2">FIT</span></span
+                      >
+                      Terms and Conditions and Privacy Policy. I also agree to
+                      receive emails from
+                      <span class="logo"
+                        >BE<span class="logo-2">FIT</span></span
+                      >
+                      and I understand that I may opt of the
+                      <span class="logo"
+                        >BE<span class="logo-2">FIT</span></span
+                      >
+                      subscriptions at any time.
+                    </p>
+                  </div>
+                  <button>SUBSCRIBE &nbsp; &#8594;</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="mt-auto w-100 m-0 p-0 py-5">
+        <div class="containe m-0 p-0 mx-auto">
+          <div
+            class="d-flex w-100 m-0 p-0 justify-content-between align-items-stretch section_container-qobi"
+          >
+            <section class="d-flex flex-column zero-section-qobi m-0 p-0">
+              <div class="header m-0 p-0 w-100">
+                <h1 class="m-0 p-0">
+                  BEFIT <span style="color: #ff4301;">GYM</span>
+                </h1>
+              </div>
+              <div class="body m-0 p-0 w-100">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus officia aperiam rem voluptates pariatur excepturi
+                  ipsam quas vero incidunt quia, veniam qui ratione ut molestias
+                  earum, dolore, aliquam omnis? Nihil! Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Doloribus officia aperiam
+                  rem voluptates pariatur excepturi ipsam quas vero incidunt
+                  quia, veniam.
+                </p>
+              </div>
             </section>
-        </main>
 
-        <footer class="mt-auto w-100 m-0 p-0 py-5">
-        
-        </footer>
+            <section class="d-flex flex-column m-0 p-0 one-section-qobi">
+              <div class="header m-0 p-0 w-100">
+                <h4 class="thead">EXPLORE</h4>
+              </div>
+              <nav class="navbar">
+                <div class="justify-content-start w-100">
+                  <div class="navbar-nav align-items-start">
+                    <a class="nav-item nav-link" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                    <a class="nav-item nav-link" href="#">Services</a>
+                    <a class="nav-item nav-link" href="#">Plans</a>
+                    <a class="nav-item nav-link" href="#">Meet The Team</a>
+                    <a class="nav-item nav-link active" href="#"
+                      >BMI Calculator</a
+                    >
+                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link" href="#">About Us</a>
+                    <a class="nav-item nav-link" href="#">Contact Us</a>
+                    <!-- <button class="m-0 p-0">JOIN US</button> -->
+                  </div>
+                </div>
+              </nav>
+            </section>
 
+            <section
+              class="d-flex flex-column m-0 p-0 justify-content-between two-section-qobi"
+            >
+              <div class="d-flex m-0 p-0 first-div-qobi">
+                <div class="d-flex flex-column m-0 p-0">
+                  <div class="header m-0 p-0 w-100">
+                    <h4 class="thead">VISIT</h4>
+                  </div>
+                  <div class="body m-0 p-0 w-100 street-qobi">
+                    <h4>100 STREET ADDRESS, APAPA, LEKKI, LAGOS</h4>
+                  </div>
+                </div>
+                <div class="d-flex flex-column m-0 p-0">
+                  <div class="header m-0 p-0 w-100">
+                    <h4 class="thead">LEGAL</h4>
+                  </div>
+                  <div class="body m-0 p-0 w-100">
+                    <a href=""><h4 class="mb-3">PRIVACY POLICY</h4></a>
+                    <a href=""><h4>TERMS</h4></a>
+                  </div>
+                </div>
+              </div>
+              <div class="m-0 p-0 pt-3 pb-5 second-div-qobi">
+                <div class="d-flex flex-column m-0 p-0">
+                  <div class="header m-0 p-0 w-100">
+                    <h4 class="thead">FOLLOW US ON SOCIAL MEDIA</h4>
+                  </div>
+                  <div class="d-flex body m-0 p-0 w-100 social-media-qobi">
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-pinterest"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="only_mobile_section_qobi">
+              <div class="d-flex justify-content-between m-0 p-0 pb-5 w-100">
+                <a href=""><h4 class="thead">SITE MAP</h4></a>
+                <a href=""><h4 class="thead">PRIVACY POLICY</h4></a>
+                <a href=""><h4 class="thead">CAREERS</h4></a>
+              </div>
+            </section>
+
+            <section
+              class="d-flex flex-column justify-content-between m-0 p-0 three-section-qobi"
+            >
+              <div class="d-flex flex-column m-0 p-0 first-div-qobi">
+                <div class="header m-0 p-0 w-100">
+                  <h4 class="thead">SUBSCRIBE TO OUR NEWS LETTER</h4>
+                </div>
+                <div class="body m-0 p-0 w-100">
+                  <form class="d-flex flex-column align-items-end m-0 p-0">
+                    <input
+                      class="m-0"
+                      type="email"
+                      placeholder="Your Email Here"
+                    />
+                    <button>SUBSCRIBE</button>
+                  </form>
+                </div>
+              </div>
+              <div class="d-flex flex-column m-0 p-0 second-div-qobi">
+                <h4>&copy; 2020. BEFIT GYM ALL RIGHTS RESERVED</h4>
+              </div>
+            </section>
+          </div>
+        </div>
+      </footer>
     </div>
-    
+
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap/bootstrap.min.js"></script>
     <script src="./js/wow.js"></script>
     <script>
-        new WOW().init();
+      new WOW().init();
     </script>
     <script src="./js/bmipage.js"></script>
-
-</body>
-
+  </body>
 </html>

@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.footer_margin {
+  margin-top: -32px !important;
+}
+
+.slide {
+  /* position: relative; */
+  background: rgba(255, 255, 255, 0.19);
+  background-image: url('../images/Rectangle 162.png');
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+
+.jumbo {
+  display: none;
+}
+
+.abouthead {
+  position: absolute;
+  left: 139px;
+  top: 130px;
+  width: 287px;
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.abouttext {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  width: 305px;
+  height: 60px;
+  left: 136px;
+  line-height: 20px;
+  top: 260px;
+}
+
+/* .training {
+  margin-top: 70px;
+} */
+
+.post {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/image_8.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-2 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/image_12.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-3 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/image_11.png); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.posture {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  bottom: 170px;
+  left: -12px;
+}
+
+.heading {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 70px;
+}
+
+.text {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.free {
+  font-size: 26px;
+  font-family: 'Bebas Neue', cursive !important;
+}
+
+/* .teaminfo {
+  margin-top: 120px;
+} */
+
+.team {
+  font-size: 72px;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 72px;
+  background-image: url('../images/OUR\ TEAM.png');
+  background-repeat: no-repeat;
+  background-size: 100% 2em;
+  width: 100%;
+}
+
+.card-body {
+  background: aliceblue;
+  color: #ff4301;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  padding-top: 40px;
+}
+
+.card-footer {
+  background: #ff4301;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.task {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.down {
+  margin-top: 20px;
+}
+
+/* .tips {
+  margin-top: 160px;
+} */
+
+.story {
+  background-image: url('../images/OUR\ STORY.png');
+  background-repeat: no-repeat;
+  background-size: 100% 10em;
+}
+
+.culture {
+  background-image: url('../images/OUR\ CULTURE.png');
+  background-repeat: no-repeat;
+  background-size: 100% 10em;
+}
+
+.past {
+  margin-top: 95px;
+}
+
+.button {
+  cursor: pointer;
+  background: #ff4301;
+  width: 190px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  border-radius: none;
+  border: none;
+  padding-top: 5px;
+}
+
+.button::after {
+  content: url(../images/-_.png);
+  margin-left: 10px;
+}
+
+/* .pointer {
+  position: relative;
+  left: -55px;
+  top: -7px;
+  cursor: pointer;
+} */
+
+.icons {
+  float: right;
+}
+
+.fa {
+  color: #fff;
+  margin-right: 25px;
+}
+
+.blog {
+  /* margin-top: 170px; */
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.bloghead {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 72px;
+}
+
+.ready {
+  background: #ff4301;
+  position: relative;
+}
+
+.detail {
+  position: relative;
+  top: -95px;
+  width: 80%;
+  left: 10px;
+}
+
+.detailtext {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.date {
+  font-weight: 18px;
+  font-family: 'Manrope', sans-serif;
+  margin-top: -10px;
+}
+
+.jumbotron {
+  background-image: url(../images/Pre\Footer.png) !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ff4301;
+  /* height: 100px;  */
+}
+
+.fit {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+
+.join {
+  cursor: pointer;
+  background: #fff;
+  width: 190px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 36px;
+  border-radius: none;
+  border: none;
+  color: #ff4301;
+  float: right;
+  margin-top: -80px;
+}
+
+.join::after {
+  content: url(../images/-_.png);
+  margin-left: 18px;
+}
+
+/*media queries*/
+
+@media (max-width: 1024px) {
+  .slide {
+    background-image: url('../images/rsz_rectangle_162_-_tablet.png');
+    background-size: cover;
+    background-position: center center;
+    height: 512px;
+  }
+}
+
+@media (max-width: 575px) {
+  .slide {
+    background-image: url('../images/Rectangle\ 188.png');
+    height: 424px;
+  }
+
+  .training {
+    margin-top: 170px;
+  }
+
+  .detailtext {
+    font-size: 18px;
+    line-height: 19px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .date {
+    font-weight: 14px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: -5px;
+  }
+
+  .button {
+    cursor: pointer;
+    background: #ff4301;
+    width: 190px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-radius: none;
+    border: none;
+    /* padding-top: 5px; */
+  }
+
+  .join::after {
+    content: url(../images/-_.png);
+    margin-left: -18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .slide {
+    /*position: relative;*/
+    background-image: url('../images/Rectangle\ 188.png');
+    background-size: cover;
+    background-position: center center;
+    height: 224px;
+  }
+
+  .abouthead {
+    left: 15px;
+    top: 300px;
+  }
+
+  .abouttext {
+    left: 15px;
+    top: 390px;
+  }
+
+  .text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .button {
+    cursor: pointer;
+    background: #ff4301;
+    width: 190px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-radius: none;
+    border: none;
+    padding-top: 5px;
+  }
+
+  .join::after {
+    content: url(../images/-_.png);
+    margin-left: -18px;
+  }
+}

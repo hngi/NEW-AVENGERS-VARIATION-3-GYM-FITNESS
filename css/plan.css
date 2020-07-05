@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+:root {
+  --h1-color: #ff4301;
+  --body: #e5e5e5;
+  --plans: #ffc7b3;
+}
+
+.body {
+  background: var(--body);
+}
+.hero {
+  font-family: 'Bebas Neue', sans-serif;
+  background: var(--body);
+}
+
+.hero-img {
+  color: white;
+  background-image: url('../images/nathan-dumlao-pzLbV-NFT40-unsplash\ 2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  height: 660px;
+}
+
+.cover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.pricing {
+  height: 200px;
+}
+
+h1 {
+  z-index: 100;
+}
+
+h1 span {
+  color: var(--h1-color);
+}
+
+.plan-back {
+  color: var(--plans);
+  font-size: 10rem;
+  top: -10px;
+  left: 12%;
+  right: 2%;
+  translate: transform(-50%, -50%);
+  line-height: 1.5;
+  width: 100%;
+  opacity: 0.4;
+  z-index: 1;
+  font-stretch: expanded;
+}
+
+.plan-front p,
+.plan-back p {
+  letter-spacing: 0.6em;
+}
+
+.plan-front {
+  position: absolute;
+  color: var(--plans);
+  font-size: 10rem;
+  left: 0;
+  right: 0;
+  translate: transform(-50%, -50%);
+  line-height: 1.5;
+  width: 100%;
+  opacity: 0.4;
+  z-index: 1;
+  font-stretch: expanded;
+}
+
+.plan-back p,
+.plan-front p {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+/* .plan-sectn {
+  height: 300px;
+} */
+
+.special {
+  z-index: 40;
+}
+
+.special h2 {
+  overflow: hidden;
+  font-family: Manrope;
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.special h2:before,
+.special h2:after {
+  background-color: #808080;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.special h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.special h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.container-2 {
+  max-width: 800px;
+}
+
+.box {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.card-body-s {
+  color: black;
+  margin: 0 auto;
+  width: 89%;
+  left: 22px;
+  right: 22px;
+  bottom: 25%;
+  top: 50%;
+  translate: transform(-50%, -50%);
+  background-color: var(--h1-color);
+  opacity: 0.8;
+}
+
+.card-title-s {
+  font-size: 2rem;
+  margin-top: -1.4rem;
+  color: black;
+  font-family: Bebas Neue;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  font-weight: normal;
+  z-index: 10;
+}
+
+.money {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 77px;
+  text-align: center;
+  margin-top: -1.8rem;
+}
+
+.money-s {
+  margin-top: -1.5rem;
+}
+
+h2.mobile-h2 {
+  font-family: Manrope;
+  line-height: 21px;
+  text-align: center;
+}
+
+.mobile-p {
+  font-family: Manrope;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.join {
+  background-color: var(--h1-color);
+  border: none;
+  outline: none;
+  color: white;
+  width: 30%;
+  padding: 0.2rem;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.join:hover {
+  opacity: 0.9;
+  color: #808080;
+}
+
+.join-l {
+  background-color: var(--h1-color);
+  color: white;
+  width: 35%;
+}
+
+.regular-plans {
+  background-color: var(--body);
+}
+
+h5.card-title {
+  font-size: 2rem;
+  font-family: 'Manrope', sans-serif;
+}
+
+p.card-text {
+  font-size: 1.4rem;
+}
+
+.list-group li {
+  background-color: #ff7b4d;
+  margin-bottom: 0.5rem;
+}
+
+.card-l {
+  border: 1px solid #ff7b4d;
+}
+
+.card-title span {
+  border-bottom: 1px solid #828282;
+  display: block;
+  height: 1px;
+  margin-top: 1rem;
+  position: relative;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  height: 2px;
+}
+
+.rarr {
+  font-size: 1.5rem;
+  margin-left: 0.15rem;
+}
+
+span.value {
+  font-size: 2rem;
+}
+
+sup {
+  font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  .money {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 77px;
+    text-align: center;
+    margin-top: -1.2rem;
+  }
+
+  .special h2 {
+    font-family: Manrope;
+    font-size: 24px;
+    line-height: 21px;
+    text-align: center;
+    color: #0d0d0d;
+  }
+
+  .hero-img {
+    height: 500px;
+  }
+
+  .hero-text {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h3.display-3 {
+    font-size: 36px;
+    padding: 2rem;
+  }
+
+  .special-p {
+    font-size: 14px;
+  }
+
+  .special h2:before,
+  .special h2:after {
+    display: none;
+  }
+
+  .money-s {
+    margin-top: -1rem;
+  }
+
+  .mobile-h2 {
+    scale: 0.7;
+  }
+
+  .mobile-p {
+    font-family: Manrope;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+  }
+}
