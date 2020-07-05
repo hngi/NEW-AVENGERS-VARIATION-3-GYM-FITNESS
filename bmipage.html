@@ -122,41 +122,37 @@
                       weight-related health problems. If you're over 20 and not
                       pregnant, find out what your number is and what it means.
                     </p>
-                    git
                   </div>
                   <div class="w-100 m-0 p-0">
-                    <form class="d-flex flex-column">
-                      <div class="w-100 mb-4 align-items-end height-con">
-                        <div class="d-flex flex-column w-100">
-                          <label for="height">Height</label>
-                          <div class="d-flex align-items-center">
-                            <input
-                              type="number"
-                              name="height"
-                              placeholder="1 - 9"
-                              required
-                            />
-                            <p class="m-0">feet</p>
-                          </div>
-                        </div>
-                        <div class="d-flex align-items-center w-100">
-                          <input type="number" placeholder="0 - 11" required />
-                          <p class="m-0">inches</p>
-                        </div>
-                      </div>
-                      <label for="weight">Weight</label>
-                      <div class="d-flex align-items-center mb-4">
-                        <input
-                          type="number"
-                          name="weight"
-                          placeholder="80 - 800"
-                          required
-                        />
-                        <p class="m-0">pounds</p>
-                      </div>
-                      <button>CALCULATE &nbsp; &#8594;</button>
-                    </form>
-                  </div>
+                        <form class="d-flex flex-column">
+                            <div class="w-100 mb-4 align-items-start height-con">
+                                <div class="d-flex flex-column w-100">
+                                    <label for="height">Height</label>
+                                    <div class="d-flex align-items-center">
+                                        <input type="number" id="feet-qobi" name="height" placeholder="1 - 9" required>
+                                        <p class="m-0">feet</p>
+                                    </div>
+                                    <p class="m-0 p-0" style="color:red" id="feet-error-qobi"></p>
+                                </div>
+                                <div class="d-flex flex-column align-items-start w-100">
+                                    <label for="height" style="opacity: 0;">Height</label>
+                                    <div class="d-flex align-items-center w-100">
+                                        <input type="number" placeholder="0 - 11" id="inches-qobi" required>
+                                        <p class="m-0">inches</p>
+                                    </div>
+                                    <p class="m-0 p-0" style="color:red" id="inches-error-qobi"></p>
+                                </div>
+                            </div>
+                            <label for="weight">Weight</label>
+                            <div class="d-flex align-items-center">
+                                <input type="number" name="weight" placeholder="80 - 800" id="weight-qobi" required>
+                                <p class="m-0">pounds</p>
+                            </div>
+                            <p class="m-0 p-0 mb-5" style="color:red" id="weight-error-qobi"></p>
+                            <button id="bmi-calculate-btn-qobi">CALCULATE &nbsp; &#8594;</button>
+
+                        </form>
+                   </div>
                 </div>
               </div>
 
@@ -176,7 +172,7 @@
                     <div class="d-flex align-items-center mb-4">
                       <p class="m-0 mr-3">Your BMI is :</p>
                       <div class="bmi-score">
-                        <h2 class="m-0">38.5</h2>
+                        <h2 class="m-0" id="bmi-result-qobi">38.5</h2>
                       </div>
                     </div>
                     <div>
